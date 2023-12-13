@@ -1,6 +1,6 @@
 
 
-.exercise__quote {
+.quote__container {
   width: 444px;
     height: 242px;
     flex-shrink: 0;
@@ -8,14 +8,14 @@
     background: #242424;
 }
 
-.exercise__image {
+.quote__image {
 width: 444px;
   height: 242px;
   flex-shrink: 0;
   border-radius: 20px;
 }
 
-.exercise__news {
+.quote__news {
   width: 444px;
     height: 315px;
     flex-shrink: 0;
