@@ -104,11 +104,16 @@ display: flex;
   }
 }
 
-
 .quote__svg-title {
 display: flex;
 justify-content: space-between;
 margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__svg-title {
+    margin-bottom: 6px;
+  }
 }
 
 .quote__title {
@@ -290,11 +295,17 @@ color: #F4F4F4;
     margin-bottom: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  .news__subtitle {
+    margin-bottom: 20px;
+  }
+}
+
 .news__text {
   overflow: hidden;
     color: #242424;
     text-overflow: ellipsis;
-    white-space: normal;
+    white-space: nowrap;
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -315,5 +326,6 @@ color: #F4F4F4;
   .news__text {
     height: 163px;
     width: 314px;
+    white-space: normal;
   }
 }
