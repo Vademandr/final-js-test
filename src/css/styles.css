@@ -133,9 +133,9 @@ color: #F4F4F4;
 }
 
 .quote__image {
-width: 335px;
+/* width: 335px;
   height: 242px;
-  flex-shrink: 0;
+  flex-shrink: 0; */
   border-radius: 20px;
 }
 
