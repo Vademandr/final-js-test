@@ -138,6 +138,42 @@ width: 335px;
   flex-shrink: 0;
   border-radius: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .quote__image {
+    width: 288px;
+    height: 258px;
+    content: url('../img/exercise-image-tablet.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .quote__image {
+        width: 288px;
+        height: 258px;
+        content: url('../img/exercise-image-tablet@2x.jpg');
+      }
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .quote__image {
+    width: 444px;
+    height: 242px;
+    content: url('../img/exercise-image-desktop.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .quote__image {
+      width: 444px;
+      height: 242px;
+      content: url('../img/exercise-image-desktop@2x.jpg');
+    }
+  }
+}
 .news__block {
   position: relative;
 }
@@ -176,6 +212,7 @@ width: 335px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+    margin-bottom: 2px;
 }
 
 .news__subtitle {
@@ -185,17 +222,19 @@ width: 335px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
+    margin-bottom: 16px;
 }
 
 .news__text {
   overflow: hidden;
     color: #242424;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
-  /* height: 105px; */
+  height: 105px;
+  width: 245px;
 }
