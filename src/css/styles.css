@@ -66,6 +66,13 @@ img {
     justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .quote__running {
+    top: 40px;
+      left: 40px;
+  }
+}
+
 .quote__list {
 display: flex;
   flex-direction: column;
@@ -83,6 +90,21 @@ display: flex;
     padding: 20px 20px 20px 72px;
 }
 
+@media screen and (min-width: 768px) {
+  .quote__container {
+    width: 268px;
+    padding: 40px 40px 40px 90px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .quote__container {
+    width: 312px;
+    height: 162px;
+  }
+}
+
+
 .quote__svg-title {
 display: flex;
 justify-content: space-between;
@@ -97,6 +119,13 @@ color: #F4F4F4;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__title {
+      font-size: 24px;
+      line-height: 32px;
+  }
 }
 
 .running__icon {
@@ -130,6 +159,13 @@ color: #F4F4F4;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__author {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .quote__image {
@@ -180,11 +216,26 @@ color: #F4F4F4;
 
 .quote__news {
   width: 243px;
-    height: 169px;
+    height: 161px;
     flex-shrink: 0;
     border-radius: 20px;
     padding: 20px 20px 20px 72px;
       background: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__news {
+    width: 268px;
+    height: 168px;
+    padding: 40px 40px 40px 90px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .quote__news {
+    width: 312px;
+    height: 234px;
+  }
 }
 
 .icon__news {
@@ -198,6 +249,13 @@ color: #F4F4F4;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .icon__news {
+    top: 40px;
+    left: 40px;
+  }
 }
 
 .filled__icon {
@@ -215,6 +273,13 @@ color: #F4F4F4;
     margin-bottom: 2px;
 }
 
+@media screen and (min-width: 768px) {
+  .news__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
 .news__subtitle {
   color: rgba(36, 36, 36, 0.60);
     font-family: DM Sans;
@@ -229,7 +294,7 @@ color: #F4F4F4;
   overflow: hidden;
     color: #242424;
     text-overflow: ellipsis;
-    /* white-space: nowrap; */
+    white-space: normal;
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -237,4 +302,18 @@ color: #F4F4F4;
     line-height: 18px;
   height: 105px;
   width: 245px;
+}
+
+@media screen and (min-width: 768px) {
+  .news__text {
+      height: 97px;
+        width: 270px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .news__text {
+    height: 163px;
+    width: 314px;
+  }
 }
